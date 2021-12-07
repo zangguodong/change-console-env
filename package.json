@@ -1,0 +1,25 @@
+{
+  "name": "@zangguodong/change-console-env",
+  "version": "1.0.0",
+  "description": "an util for quick check console env",
+  "main": "dist.js",
+  "bin": {
+    "cconsole": "dist.js"
+  },
+  "scripts": {
+    "build": "esbuild src/index.js --platform=node --bundle --outfile=dist.js"
+  },
+  "keywords": [],
+  "author": "guodong",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "directory": "release"
+  }
+}

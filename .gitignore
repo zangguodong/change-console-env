@@ -1,0 +1,6 @@
+.*cache
+*.tsbuildinfo
+.idea
+coverage
+dist.js
+node_modules
